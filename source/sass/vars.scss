@@ -5,6 +5,7 @@ $headings-font-weight: 800;
 $body-color: #0d1430;
 $primary: #1b6dff;
 $secondary: #e2edff;
+$light: #fff;
 
 $grid-breakpoints: (
   xs: 0,
@@ -24,10 +25,12 @@ $container-max-widths: (
 $spacers: (
   20p: 20px,
   30p: 30px,
+  40p: 40px,
 );
 
 $font-sizes: (
   14: 14px,
+  18: 18px,
   20: 20px,
 );
 
@@ -36,7 +39,13 @@ $navbar-padding-x: 0;
 $navbar-nav-link-padding-x: 0.625rem;
 
 $input-btn-focus-width: 0;
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 1.25rem;
+$input-btn-padding-y-lg: 1.625rem;
+$input-btn-padding-x-lg: 2rem;
+$input-btn-font-size-lg: 1rem;
 
 $btn-border-radius: 10rem;
 $btn-border-radius-sm: $btn-border-radius;
 $btn-border-radius-lg: $btn-border-radius;
+$btn-font-weight: 600;

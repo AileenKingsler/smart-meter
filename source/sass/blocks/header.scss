@@ -1,0 +1,26 @@
+.header {
+  min-height: 700px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 440px) 100%, 50%;
+  background-size: auto, cover;
+  background-image: url('../img/header.png'), url('../img/header-bg.png');
+
+  @include media-breakpoint-down(sm) {
+    min-height: auto;
+    padding: 50px 0;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url('../img/header-bg.png');
+  }
+
+  &__title {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 32px;
+    }
+  }
+}
