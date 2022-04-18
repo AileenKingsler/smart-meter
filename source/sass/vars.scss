@@ -1,1 +1,42 @@
 $font-family-sans-serif: 'Manrope', 'Helvetica', sans-serif;
+$font-weight-base: 300;
+$headings-font-weight: 800;
+
+$body-color: #0d1430;
+$primary: #1b6dff;
+$secondary: #e2edff;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1360px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1320px,
+);
+
+$spacers: (
+  20p: 20px,
+  30p: 30px,
+);
+
+$font-sizes: (
+  14: 14px,
+  20: 20px,
+);
+
+$navbar-light-color: $body-color;
+$navbar-padding-x: 0;
+$navbar-nav-link-padding-x: 0.625rem;
+
+$input-btn-focus-width: 0;
+
+$btn-border-radius: 10rem;
+$btn-border-radius-sm: $btn-border-radius;
+$btn-border-radius-lg: $btn-border-radius;
