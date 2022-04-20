@@ -5,6 +5,7 @@
   margin-bottom: $headings-margin-bottom;
 
   @include media-breakpoint-down(sm) {
-    font-size: 32px;
+    font-size: 30px;
+    word-break: break-word;
   }
 }

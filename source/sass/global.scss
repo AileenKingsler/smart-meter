@@ -21,3 +21,11 @@
 .gap-4 {
   gap: 4px;
 }
+
+@include media-breakpoint-down(sm) {
+  h1,
+  .h1 {
+    font-size: 30px;
+    word-wrap: break-word;
+  }
+}
