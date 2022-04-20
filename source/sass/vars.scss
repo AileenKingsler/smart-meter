@@ -5,7 +5,12 @@ $headings-font-weight: 800;
 $body-color: #0d1430;
 $primary: #1b6dff;
 $secondary: #e2edff;
-$light: #fff;
+$light: #f9fbfd;
+$white: #fff;
+
+$theme-colors: (
+  'white': $white,
+);
 
 $grid-breakpoints: (
   xs: 0,
