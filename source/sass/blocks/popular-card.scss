@@ -3,4 +3,14 @@
     height: 280px;
     object-fit: scale-down;
   }
+
+  &__link {
+    color: inherit;
+    transition: 0.25s;
+
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
 }
