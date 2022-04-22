@@ -1,6 +1,5 @@
 $font-family-sans-serif: 'Manrope', 'Helvetica', sans-serif;
 $font-weight-base: 300;
-$headings-font-weight: 800;
 
 $body-color: #0d1430;
 $primary: #1b6dff;
@@ -41,6 +40,10 @@ $font-sizes: (
   20: 20px,
   24: 24px,
 );
+
+$headings-font-weight: 800;
+$headings-margin-bottom: 1rem;
+$h2-font-size: 1.875rem;
 
 $navbar-light-color: $body-color;
 $navbar-light-hover-color: $primary;
