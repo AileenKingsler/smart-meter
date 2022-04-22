@@ -1,0 +1,10 @@
+.navbar {
+  &-phone {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+}

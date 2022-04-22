@@ -22,8 +22,20 @@
   gap: 4px;
 }
 
+.gap-16 {
+  gap: 16px;
+}
+
 .rounded-16 {
   border-radius: 16px;
+}
+
+.btn-link {
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 @include media-breakpoint-down(sm) {

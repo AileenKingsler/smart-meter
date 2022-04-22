@@ -39,9 +39,12 @@ $font-sizes: (
   14: 14px,
   18: 18px,
   20: 20px,
+  24: 24px,
 );
 
 $navbar-light-color: $body-color;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
 $navbar-padding-x: 0;
 $navbar-nav-link-padding-x: 0.625rem;
 
