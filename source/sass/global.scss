@@ -38,6 +38,30 @@
   }
 }
 
+.form-control {
+  &[name='name'],
+  &[name='phone'],
+  &[name='question'] {
+    padding-left: 54px;
+    background-repeat: no-repeat;
+    background-position: 16px 50%;
+  }
+
+  &[name='name'] {
+    background-image: url('../img/field-name.svg');
+  }
+
+  &[name='phone'] {
+    background-image: url('../img/field-phone.svg');
+  }
+
+  &[name='question'] {
+    background-image: url('../img/field-question.svg');
+    background-position-y: 23px;
+    resize: none;
+  }
+}
+
 @include media-breakpoint-down(sm) {
   h1,
   .h1 {

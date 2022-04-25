@@ -35,6 +35,7 @@ $spacers: (
 );
 
 $font-sizes: (
+  12: 12px,
   14: 14px,
   18: 18px,
   20: 20px,
@@ -62,3 +63,8 @@ $btn-border-radius: 10rem;
 $btn-border-radius-sm: $btn-border-radius;
 $btn-border-radius-lg: $btn-border-radius;
 $btn-font-weight: 600;
+
+$input-bg: #f0f6ff;
+$input-border-color: $input-bg;
+$input-border-radius-lg: 1rem;
+$input-color: $body-color;
