@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Умный счетчик</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div class="container">
+  <nav class="navbar navbar-expand-xl navbar-light py-xl-30p font-weight-500">
+    <a class="navbar-brand mr-20p" href="/">
+      <img src="img/logo.svg" width="190" height="71" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav align-items-center flex-grow-1">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Каталог продукции
+          </a>
+          <div class="dropdown-menu shadow border-0" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Товар</a>
+            <a class="dropdown-item" href="#">Товар</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">О компании</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Оплата и доставка</a>
+        </li>
+        <li class="nav-item mr-xl-auto">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+        <li class="py-2 py-xl-0 ml-xl-20p text-xl-right text-center">
+          <a class="navbar-phone fs-20 lh-narrow d-block" href="tel:88000000000">8 800 000-00-00</a>
+          <div class="text-primary fs-14 lh-narrow font-weight-300">info@smartschetchik.ru</div>
+        </li>
+        <li class="py-2 py-xl-0 ml-xl-20p">
+          <ul class="social-list list-unstyled mb-0 d-flex gap-4">
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в Телеграм">
+      <svg class="m-auto" width="19" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#tg"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в VK">
+      <svg class="m-auto" width="21" height="10" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#vk"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в Одноклассниках">
+      <svg class="m-auto" width="11" height="19" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#ok"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+  <header class="header d-flex flex-column justify-content-center bg-primary text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-8">
+          <h1 class="header__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+          <p class="fs-md-18">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <a href="#" class="btn btn-lg btn-white text-primary d-inline-flex align-items-center mt-md-40p mt-20p">
+            Узнать подробнее
+            <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+              <use xlink:href="img/sprite.svg#btn-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="info py-lg-100p py-60p container">
+    <div class="row">
+      <div class="col-lg-6 d-none d-lg-block">
+        <img class="img-fluid" src="img/info.png" width="651" height="821" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="section-title">Что такое Умный счетчик?</h2>
+        <p class="fs-md-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,</p>
+        <ul class="list list-unstyled my-30p fs-md-18 font-weight-500">
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/info-1.svg" width="80" height="80" alt="">
+            <span>Экономит время на передачу показаний</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/info-2.svg" width="80" height="80" alt="">
+            <span>Исключает ошибки в передачи показаний</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/info-3.svg" width="80" height="80" alt="">
+            <span>Лишает неудобств со снятием, передачей показаний</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/info-4.svg" width="80" height="80" alt="">
+            <span>Позволяет дистанционно следить за показаниями</span>
+          </li>
+        </ul>
+        <p class="fs-md-18">Наша компания занимается подбором, поставкой, монтажем и обслуживанием счетчиков воды на территорию РФ.</p>
+      </div>
+    </div>
+
+    <div class="pt-lg-60p pt-40p">
+      <p class="section-title text-center">Мы работаем с крупнейшими производителями, включая:</p>
+      <ul class="list-unstyled row align-items-center text-center mb-n3 mt-lg-60p mt-40p">
+        <li class="col mb-3">
+          <img class="img-fluid" src="img/vendors/saures.svg" width="362" height="38" alt="Saures">
+        </li>
+        <li class="col-3 mb-3">
+          <img class="img-fluid" src="img/vendors/decast.png" width="112" height="136" alt="Декаст">
+        </li>
+        <li class="col mb-3">
+          <img class="img-fluid" src="img/vendors/nero.png" width="280" height="57" alt="Nero">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="convenience d-flex flex-column justify-content-center bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-7 col-md-7">
+          <h2 class="section-title">Чем удобны умные счетчики воды?</h2>
+          <p class="fs-md-20 font-weight-500 text-primary">Показания счетчиков на смартфоне и в веб-браузере</p>
+          <ul class="list list-unstyled mb-0 mt-40p fs-md-18">
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-3" src="img/convenience-1.svg" width="80" height="80" alt="">
+              <span>Актуальные показания на экране вашего смартфона и компьютера</span>
+            </li>
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-3" src="img/convenience-2.svg" width="80" height="80" alt="">
+              <span>Больше не нужно каждый месяц лезть в сантехнический шкаф или звонить арендаторам</span>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-lg btn-primary d-inline-flex align-items-center mt-40p">
+            Перейти в каталог
+            <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+              <use xlink:href="img/sprite.svg#btn-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="transmission fs-md-18 py-lg-100p py-60p container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="section-title mb-lg-5 mb-30p">Автоматическая передача показаний счетчиков</h2>
+        <p>Не нужно помнить о сроках отправки показаний и каждый месяц передавать их вручную.</p>
+        <p>Умные счетчики SAURES сами сдадут показания, а вы получите уведомление об успешной отправке.</p>
+        <img class="img-fluid mt-lg-40p mt-3" src="img/transmission.png" width="592" height="519" alt="">
+      </div>
+      <div class="col-lg-6 mt-30p mt-lg-0">
+        <ul class="list list-unstyled mb-40p">
+          <li class="d-flex align-items-center bg-light rounded-16 p-3">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-4.svg" width="102" height="102" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">Управляющие компании, ТСЖ, СНТ</p>
+              <p class="mb-0">Отправка показаний в управляющие компании по всей России</p>
+            </div>
+          </li>
+          <li class="d-flex align-items-center bg-light rounded-16 p-3">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-5.svg" width="102" height="102" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">МосОблЕИРЦ</p>
+              <p class="mb-0">Отправка показаний в МОСОБЛЕИРЦ для жителей Московской области</p>
+            </div>
+          </li>
+          <li class="d-flex align-items-center bg-light rounded-16 p-3">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-6.svg" width="102" height="102" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">ЕИРЦ Москвы</p>
+              <p class="mb-0">Отправка показаний в ЕИРЦ Москвы для москвичей, оплачивающих воду по ЕПД</p>
+            </div>
+          </li>
+        </ul>
+        <p class="section-title">А так же</p>
+        <ul class="list list-unstyled mt-30p mb-0">
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-1.svg" width="80" height="80" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">Без подключения 220В</p>
+              <p class="mb-0">Умные счетчики работают от батареек. Одного комплекта хватает на срок до 4 лет.</p>
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-2.svg" width="80" height="80" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">Без проводов</p>
+              <p class="mb-0">Умные счетчики передают данные через Wi-Fi или NB-IoT сеть оператора МТС.</p>
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="flex-shrink-0 mr-3" src="img/transmission-3.svg" width="80" height="80" alt="">
+            <div>
+              <p class="font-weight-500 mb-1">Без абонентской платы</p>
+              <p class="mb-0">Набор базовых функций и сервисов предоставляется бесплатно.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular py-lg-100p py-60p bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Популярные товары</h2>
+      <div class="row mb-n30p mt-40p">
+        <div class="col-lg-4 col-sm-6 mb-30p">
+          <div class="popular-card rounded bg-white border border-secondary p-20p h-100">
+            <img class="popular-card__img w-100 mb-20p" src="img/products/product-1.png" width="227" height="166" alt="">
+            <a href="#" class="popular-card__link d-block fs-md-18 font-weight-500">Контроллер SAURES R1</a>
+            <p class="fs-14 text-primary mb-2">Артикул: CTR-R1.8</p>
+            <p class="fs-md-18">Делает умными любые импульсные (с проводами) счетчики воды. Подключите R1 к своим счетчикам.</p>
+            <div class="d-flex align-items-center flex-wrap gap-16">
+              <a href="#" class="btn btn-primary d-inline-flex align-items-center">
+                Купить
+                <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#btn-arrow"></use>
+                </svg>
+              </a>
+              <div class="fs-24 lh-narrow font-weight-600 text-nowrap">
+                8 000 руб.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30p">
+          <div class="popular-card rounded bg-white border border-secondary p-20p h-100">
+            <img class="popular-card__img w-100 mb-20p" src="img/products/product-2.png" width="230" height="230" alt="">
+            <a href="#" class="popular-card__link d-block fs-md-18 font-weight-500">Водосчетчики Wi-Fi 1/2"</a>
+            <p class="fs-14 text-primary mb-2">Артикул: CTR-R1.8</p>
+            <p class="fs-md-18">Делает умными любые импульсные (с проводами) счетчики воды. Подключите R1 к своим счетчикам.</p>
+            <div class="d-flex align-items-center flex-wrap gap-16">
+              <a href="#" class="btn btn-primary d-inline-flex align-items-center">
+                Купить
+                <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#btn-arrow"></use>
+                </svg>
+              </a>
+              <div class="fs-24 lh-narrow font-weight-600 text-nowrap">
+                8 000 руб.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30p">
+          <div class="popular-card rounded bg-white border border-secondary p-20p h-100">
+            <img class="popular-card__img w-100 mb-20p" src="img/products/product-3.png" width="230" height="230" alt="">
+            <a href="#" class="popular-card__link d-block fs-md-18 font-weight-500">Водосчетчики NB-IoT 1/2"</a>
+            <p class="fs-14 text-primary mb-2">Артикул: CTR-R1.8</p>
+            <p class="fs-md-18">Делает умными любые импульсные (с проводами) счетчики воды. Подключите R1 к своим счетчикам.</p>
+            <div class="d-flex align-items-center flex-wrap gap-16">
+              <a href="#" class="btn btn-primary d-inline-flex align-items-center">
+                Купить
+                <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#btn-arrow"></use>
+                </svg>
+              </a>
+              <div class="fs-24 lh-narrow font-weight-600 text-nowrap">
+                8 000 руб.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-40p">
+        <div class="col-auto">
+          <button type="button" class="btn btn-lg btn-secondary text-primary px-60p">
+            Помочь с подбором
+          </button>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="btn btn-lg btn-link d-inline-flex align-items-center px-0">
+            Перейти в каталог
+            <svg class="ml-3" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+              <use xlink:href="img/sprite.svg#btn-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services text py-lg-100p py-60p overflow-hidden">
+    <div class="container">
+      <h2 class="section-title text-center">Наши услуги</h2>
+      <div class="row mt-40p">
+        <div class="col-lg-6">
+          <h2>Монтаж узлов и счетчиков учета расхода воды и тепла</h2>
+          <p>Мало купить счетчик воды или тепла – его надо правильно установить. Во-первых, чтобы он давал точные показания. Во-вторых, чтобы его приняла на учет управляющая компания. В-третьих, чтобы он корректно функционировал, не мешая нормальной работе системы.</p>
+          <p class="h2">Что нужно, чтобы выполнить монтаж тепломера и водомера?</p>
+          <ul>
+            <li>Выбрать компанию, располагающую соответствующим сертификатом.</li>
+            <li>Позвонить или написать менеджеру, чтобы заказать необходимую услугу.</li>
+            <li>Договориться о времени и месте установки прибора.</li>
+            <li>Оставаться дома в указанный период до приезда исполнителей работ.</li>
+            <li>Проследить за процедурой и отвечать на уточняющие вопросы.</li>
+            <li>Принять монтированное устройство вместе с пакетом документов.</li>
+          </ul>
+          <p>Затем вам остается сообщить об этом в ресурсо-предоставляющую компанию и предоставить ей все полученные бумаги.</p>
+        </div>
+        <div class="col-lg-6 mt-30p mt-lg-0 order-lg-first">
+          <div class="position-relative">
+            <img class="img-fluid services__decor services__decor--1" src="img/service-decor-1.svg" width="421" height="446" alt="">
+            <img class="img-fluid rounded-16" src="img/service.png" width="630" height="616" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <h2>Монтаж узлов и счетчиков учета расхода воды и тепла</h2>
+          <p>Мало купить счетчик воды или тепла – его надо правильно установить. Во-первых, чтобы он давал точные показания. Во-вторых, чтобы его приняла на учет управляющая компания. В-третьих, чтобы он корректно функционировал, не мешая нормальной работе системы.</p>
+          <p class="h2">Что нужно, чтобы выполнить монтаж тепломера и водомера?</p>
+          <ul>
+            <li>Выбрать компанию, располагающую соответствующим сертификатом.</li>
+            <li>Позвонить или написать менеджеру, чтобы заказать необходимую услугу.</li>
+            <li>Договориться о времени и месте установки прибора.</li>
+            <li>Оставаться дома в указанный период до приезда исполнителей работ.</li>
+            <li>Проследить за процедурой и отвечать на уточняющие вопросы.</li>
+            <li>Принять монтированное устройство вместе с пакетом документов.</li>
+          </ul>
+          <p>Затем вам остается сообщить об этом в ресурсо-предоставляющую компанию и предоставить ей все полученные бумаги.</p>
+        </div>
+        <div class="col-lg-6 mt-30p mt-lg-0">
+          <div class="position-relative">
+            <img class="img-fluid services__decor services__decor--2" src="img/service-decor-2.svg" width="211" height="244" alt="">
+            <img class="img-fluid rounded-16" src="img/service.png" width="630" height="616" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq bg-light fs-md-18 py-lg-100p py-60p">
+    <div class="container">
+      <h2 class="section-title text-center">Популярные вопросы</h2>
+      <div class="row mt-40p">
+        <div class="col-lg-7">
+          <div class="accordion" id="accordionFaq">
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500" type="button" id="heading-1" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                Я могу подключить контроллер к своим счетчикам воды?
+              </button>
+              <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Наши контроллеры поддерживают любые импульсные счетчики воды. Если из счетчика торчит провод импульсного выхода, и он никуда не подключен, значит к этому счетчику можно подключить контроллер SAURES. Также вы можете уточнить наличие импульсного выхода в паспорте на ваши счетчики.</p>
+                  <p>Если не уверены в совместимости вашего счетчика, свяжитесь с нашими консультантами по телефону +7 (495) 558-62-69 или в чате.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500 collapsed" type="button" id="heading-2" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                Сложно ли подключить контроллер и настроить отправку показаний?
+              </button>
+              <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500 collapsed" type="button" id="heading-3" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                Как быть, если в квартире 2 стояка (4 счетчика воды)?
+              </button>
+              <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500 collapsed" type="button" id="heading-4" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                Как я узнаю, что система работает исправно?
+              </button>
+              <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500 collapsed" type="button" id="heading-5" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                Что делать если на объекте нет Wi-Fi сети?
+              </button>
+              <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion__item bg-white rounded-16">
+              <button class="accordion__item-toggle btn fs-md-18 font-weight-500 collapsed" type="button" id="heading-6" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                Сколько стоит использование системы? Есть абонентская плата или платные тарифы?
+              </button>
+              <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordionFaq">
+                <div class="accordion__item-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <img class="img-fluid" src="img/faq.png" width="576" height="745" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="question d-flex flex-column justify-content-center bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-lg-6">
+          <p class="section-title">Остались вопросы? <br>Задавайте!</p>
+          <ul class="list list-unstyled mb-0 fs-md-20">
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-2" src="img/question-1.svg" width="45" height="45" alt="">
+              <span>Поможем рассчитать стоимость.</span>
+            </li>
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-2" src="img/question-2.svg" width="45" height="45" alt="">
+              <span>Ответим на все вопросы об оборудовании и сервисах.</span>
+            </li>
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-2" src="img/question-3.svg" width="45" height="45" alt="">
+              <span>Нужно автоматизировать целый дом? Не проблема.</span>
+            </li>
+            <li class="d-flex align-items-center">
+              <img class="flex-shrink-0 mr-2" src="img/question-4.svg" width="45" height="45" alt="">
+              <span>Хотите стать монтажником? Обсудим условия.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-5 col-lg-6 mt-40p mt-lg-0">
+          <div class="question__form-wrap position-relative">
+            <form class="question__form bg-white text-body rounded-16 position-relative pt-sm-60p pt-30p px-sm-60p px-30p pb-20p">
+              <div class="form-group">
+                <label for="question-name" class="sr-only">Ваше имя</label>
+                <input class="form-control form-control-lg" type="text" name="name" id="question-name" placeholder="Ваше имя" required="">
+              </div>
+              <div class="form-group">
+                <label for="question-phone" class="sr-only">Телефон</label>
+                <input class="form-control form-control-lg" type="text" name="phone" id="question-phone" placeholder="Телефон" required="">
+              </div>
+              <div class="form-group">
+                <label for="question-question" class="sr-only">Ваш вопрос</label>
+                <textarea class="form-control form-control-lg" name="question" id="question-question" rows="5" placeholder="Ваш вопрос"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-lg btn-primary">
+                  Отправить
+                  <svg class="ml-5" width="42" height="8" fill="currentColor" aria-hidden="true" focusable="false">
+                    <use xlink:href="img/sprite.svg#btn-arrow"></use>
+                  </svg>
+                </button>
+                <p class="fs-12 mt-3 mb-0">Нажимая «Отправить» вы <a href="#">разрешаете <br>нам обработать ваши данные</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer font-weight-500 pt-40p pb-30p">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-auto d-none d-lg-block">
+          <a class="navbar-brand" href="/">
+            <img src="img/logo.svg" width="190" height="71" alt="">
+          </a>
+        </div>
+        <div class="col-sm mb-20p mb-sm-0">
+          <ul class="footer__menu list-unstyled mb-0 d-flex flex-wrap flex-xl-nowrap justify-content-center  justify-content-sm-start">
+            <li>
+              <a href="#">Каталог продукции</a>
+            </li>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+            <li>
+              <a href="#">Услуги</a>
+            </li>
+            <li>
+              <a href="#">Оплата и доставка</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-auto text-right">
+          <a class="navbar-phone fs-20 lh-narrow d-block" href="tel:88000000000">8 800 000-00-00</a>
+          <div class="text-primary fs-14 lh-narrow font-weight-300">info@smartschetchik.ru</div>
+        </div>
+        <div class="col-auto">
+          <ul class="social-list list-unstyled mb-0 d-flex gap-4">
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в Телеграм">
+      <svg class="m-auto" width="19" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#tg"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в VK">
+      <svg class="m-auto" width="21" height="10" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#vk"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="btn btn-sm btn-secondary text-primary p-0 d-flex" target="_blank" rel="noopener noreferrer" aria-label="Мы в Одноклассниках">
+      <svg class="m-auto" width="11" height="19" fill="currentColor" aria-hidden="true" focusable="false">
+        <use xlink:href="img/sprite.svg#ok"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+        <div class="col-12 text-center font-weight-300 mt-20p">© ТМ Умный счетчик, 2006-2022</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.min.js"></script>
+</body>
+</html>
