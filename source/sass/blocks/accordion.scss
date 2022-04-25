@@ -1,0 +1,43 @@
+.accordion {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &-toggle {
+      text-align: left;
+      width: 100%;
+      padding: 1.25rem;
+      padding-right: 84px;
+      min-height: 90px;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: 1.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 58px;
+        height: 28px;
+        border-radius: 10em;
+        background-color: $secondary;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-image: url('../img/minus.svg');
+        transition: 0.4s;
+      }
+
+      &.collapsed {
+        &::after {
+          background-color: $primary;
+          background-image: url('../img/plus.svg');
+        }
+      }
+    }
+
+    &-content {
+      padding: 0 1.25rem 0.25rem;
+    }
+  }
+}
